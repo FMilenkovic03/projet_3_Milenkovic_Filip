@@ -1,0 +1,57 @@
+/**flexbox**/
+
+
+/**les centres**/
+
+.centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrej {
+    display: flex;
+    justify-content: center;
+}
+
+.centrea {
+    display: flex;
+    align-items: center;
+}
+
+
+/**les colonnes**/
+
+.colcen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+/**flex spacing**/
+
+.around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.between {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**position et alignements**/
+
+.alignstart {
+    display: flex;
+    align-self: flex-start;
+}
+
+.flexbetcen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

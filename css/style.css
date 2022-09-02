@@ -1,0 +1,415 @@
+@charset "UTF-8";
+/**général header**/
+header {
+  width: 100%;
+}
+
+/**Logo**/
+.logo {
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bordurelogo {
+  box-shadow: 0px 5px 5px -4px black;
+}
+
+/**Menus header**/
+.arrowlogo {
+  position: absolute;
+  margin-right: 300px;
+}
+
+/**Identité visuelle**/
+/**Backgrounds colors **/
+/**Couleurs**/
+/**déclaration font**/
+@font-face {
+  font-family: "Shrikhand";
+  src: url(/fonts/shrikhand/Shrikhand-Regular.ttf) format("TrueType");
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(/fonts/roboto/Roboto-Regular.ttf) format("TrueType");
+}
+/**Logo et titres**/
+.policetitre {
+  font-family: "Shrikhand";
+}
+
+/**polices et tailles de textes **/
+p, .police {
+  font-family: "Roboto Regular", serif;
+}
+
+/**flexbox**/
+/**les centres**/
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrej {
+  display: flex;
+  justify-content: center;
+}
+
+.centrea {
+  display: flex;
+  align-items: center;
+}
+
+/**les colonnes**/
+.colcen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/**flex spacing**/
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/**position et alignements**/
+.alignstart {
+  display: flex;
+  align-self: flex-start;
+}
+
+.flexbetcen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/**margin**/
+.ml {
+  margin-left: 5%;
+}
+
+.ml2 {
+  margin-left: 25px;
+}
+
+.ml3 {
+  margin-left: 15px;
+}
+
+.mr1 {
+  margin-right: 50px;
+}
+
+/**padding**/
+.pad1 {
+  padding: 1px 0px;
+}
+
+.pad2 {
+  padding-top: 10px;
+}
+
+/**width and heigth**/
+.widthhandshake {
+  width: 14px;
+}
+
+/**Footer**/
+footer {
+  width: 100%;
+  background-color: #353535;
+}
+
+/**texte footer**/
+.textfooter {
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textfooter--fontweight {
+  font-weight: bold;
+}
+.textfooter--title {
+  margin-top: 20px;
+  margin-left: 25px;
+  font-weight: 500;
+}
+
+/**main**/
+main {
+  width: 100%;
+}
+
+/**Fonctionnement **/
+.bulles {
+  background-color: #f2f2f2;
+  width: 80%;
+  margin: 0% 25px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  padding-right: 25px;
+}
+
+.bulles2 {
+  background-color: #f2f2f2;
+  width: 80%;
+  margin: 0% 25px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  padding-right: 25px;
+}
+
+.bulles3 {
+  background-color: #f2f2f2;
+  width: 80%;
+  margin: 0% 25px;
+  border-radius: 20px;
+  margin-bottom: 5%;
+  -webkit-box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  box-shadow: 0px 10px 10px -7px rgba(66, 66, 66, 0.55);
+  padding-right: 25px;
+}
+
+.numberecart {
+  margin-right: 5%;
+  background-color: #9356DC;
+  border-radius: 50px;
+  width: 17px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-left: -7px;
+}
+
+.textbulles {
+  margin: 25px 10px;
+}
+
+/**restaurants**/
+.restaurants {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.cardrestaurant {
+  background-color: white;
+  width: 90%;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 10px 16px -8px rgba(61, 61, 61, 0.83);
+  box-shadow: 0px 10px 16px -8px rgba(61, 61, 61, 0.83);
+}
+.cardrestaurant__img {
+  width: 100%;
+  height: 200px;
+  border-radius: 25px 25px 0px 0px;
+}
+.cardrestaurant__nouveau {
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  margin-right: 20px;
+  margin-bottom: 225px;
+  background-color: #99e3d1;
+  padding: 6px 10px;
+  color: #018767;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.cardrestaurant--heartcard {
+  display: flex;
+  align-self: flex-end;
+  position: absolute;
+  margin-top: 200px;
+  margin-right: 30px;
+}
+.cardrestaurant--h4card {
+  display: flex;
+  align-self: flex-start;
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.cardrestaurant--pcard {
+  display: flex;
+  align-self: flex-start;
+  margin-top: 5px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+.cardrestaurant--placementcards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/**Menus**/
+.greybackground {
+  background-color: #f2f2f2;
+}
+
+/**main menu**/
+.deliceimg {
+  width: 100%;
+  height: 300px;
+}
+
+.principal {
+  background-color: #f2f2f2;
+  border-radius: 25px 25px 0px 0px;
+  position: relative;
+  margin-top: -55px;
+}
+
+/**Bulles menu**/
+.bullemenu {
+  background-color: white;
+  border-radius: 15px;
+  width: 95%;
+  margin-bottom: 15px;
+}
+.bullemenu__plat {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.bullemenu__detail {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+.bullemenu--textdetail {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+.bullemenu--prix {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+/**button menu**/
+.menubut {
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 190px;
+}
+
+/**soulignement texte**/
+.souligne {
+  padding-bottom: 5px;
+  width: 40px;
+  border-bottom: solid #99E2D0;
+}
+
+/**Paris, Belleville**/
+.backgroundParis {
+  background-color: #eaeaea;
+  opacity: 90%;
+}
+
+.fontbel {
+  margin: 3%;
+  font-size: x-large;
+}
+
+.marginlocation {
+  margin-left: 30%;
+}
+
+.divparis {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/**Réservation**/
+.reservation {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #f2f2f2;
+}
+.reservation__titre {
+  margin: 0px 5px;
+}
+.reservation__texte {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.reservation__button {
+  box-shadow: 0px 7px 16px -7px #000000;
+  background: linear-gradient(to bottom, #FF79DA 5%, #9356DC 100%);
+  background-color: #FF79DA;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  border: none;
+}
+.reservation__button:hover {
+  background: #a16be0;
+  background: #ff93e1;
+}
+
+/**Fonctionnement**/
+.bulles:hover {
+  background-color: #F5EEF8;
+}
+.bulles:hover:hover > i {
+  color: #9356DC;
+}
+
+.bulles2:hover {
+  background-color: #F5EEF8;
+}
+.bulles2:hover:hover > i {
+  color: #9356DC;
+}
+
+.bulles3:hover {
+  background-color: #F5EEF8;
+}
+.bulles3:hover:hover > i {
+  color: #9356DC;
+}
+
+/**Restaurant**/
+.cardrestaurant:hover > .cardrestaurant--heartcard {
+  color: #9356DC;
+}
+
+/**Footer**/
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+/**Menus**/
+
+.greybackground {
+    background-color: #f2f2f2;
+}
+
+
+/**main menu**/
+
+.deliceimg {
+    width: 100%;
+    height: 300px;
+}
+
+.principal {
+    background-color: $background-grey;
+    border-radius: 25px 25px 0px 0px;
+    position: relative;
+    margin-top: -55px;
+}
+
+
+/**Bulles menu**/
+
+.bullemenu {
+    background-color: $white;
+    border-radius: 15px;
+    width: 95%;
+    margin-bottom: 15px;
+    &__plat {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    &__detail {
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+    &--textdetail {
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    &--prix {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 0px;
+        padding-right: 10px;
+        margin-top: 10px;
+    }
+}
+
+
+/**button menu**/
+
+.menubut {
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 190px;
+}
+
+
+/**soulignement texte**/
+
+.souligne {
+    padding-bottom: 5px;
+    width: 40px;
+    border-bottom: solid $color-tertiary;
+}
