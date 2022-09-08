@@ -23,6 +23,13 @@
 .arrowlogo{
     position: absolute;
     margin-right: 300px;
+    right: 0px;
+    left: 20px;
+    top: 25px;
+    color: black;
+    &:hover{
+        color: #9356DC;
+    }
 }
 
 
