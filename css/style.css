@@ -764,8 +764,8 @@ main {
 /**slide in right confirmation menu **/
 @-webkit-keyframes slide-in-right {
   0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
     opacity: 0;
   }
   100% {
@@ -776,8 +776,8 @@ main {
 }
 @keyframes slide-in-right {
   0% {
-    -webkit-transform: translateX(1000px);
-    transform: translateX(1000px);
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px);
     opacity: 0;
   }
   100% {
