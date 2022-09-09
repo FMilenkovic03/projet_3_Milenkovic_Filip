@@ -7,6 +7,19 @@
     background-color: #f2f2f2;
 }
 
+/**header**/
+.arrowlogo{
+    position: absolute;
+    margin-right: 300px;
+    right: 0px;
+    left: 20px;
+    top: 25px;
+    color: black;
+    &:hover{
+        color: #9356DC;
+    }
+}
+
 
 /**main menu**/
 

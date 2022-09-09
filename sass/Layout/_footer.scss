@@ -21,3 +21,16 @@ footer {
         font-weight: 500;
     }
 }
+
+@media screen and (min-width:800px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .textfooter--title{
+        display: flex;
+        justify-content: center;
+    }
+    
+}

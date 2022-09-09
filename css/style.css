@@ -1,4 +1,87 @@
 @charset "UTF-8";
+/**flexbox**/
+/**les centres**/
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centrej {
+  display: flex;
+  justify-content: center;
+}
+
+.centrea {
+  display: flex;
+  align-items: center;
+}
+
+/**les colonnes**/
+.colcen {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/**flex spacing**/
+.around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/**position et alignements**/
+.alignstart {
+  display: flex;
+  align-self: flex-start;
+}
+
+.flexbetcen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/**Identité visuelle**/
+/**Backgrounds colors **/
+/**Couleurs**/
+/**margin**/
+.ml {
+  margin-left: 5%;
+}
+
+.ml2 {
+  margin-left: 25px;
+}
+
+.ml3 {
+  margin-left: 15px;
+}
+
+.mr1 {
+  margin-right: 50px;
+}
+
+/**padding**/
+.pad1 {
+  padding: 1px 0px;
+}
+
+.pad2 {
+  padding-top: 10px;
+}
+
+/**width and heigth**/
+.widthhandshake {
+  width: 14px;
+}
+
 /**général header**/
 header {
   width: 100%;
@@ -15,19 +98,74 @@ header {
   box-shadow: 0px 5px 5px -4px black;
 }
 
-/**Menus header**/
-.arrowlogo {
-  position: absolute;
-  margin-right: 300px;
-  right: 0px;
-  left: 20px;
-  top: 25px;
-  color: black;
-}
-.arrowlogo:hover {
-  color: #9356DC;
+/*paris belleville*/
+.backgroundParis {
+  background-color: #eaeaea;
+  opacity: 90%;
 }
 
+.fontbel {
+  margin: 3%;
+  font-size: x-large;
+}
+
+.marginlocation {
+  margin-left: 30%;
+}
+
+.divparis {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/** reservation **/
+.reservation {
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #f2f2f2;
+}
+.reservation__titre {
+  margin: 0px 5px;
+}
+.reservation__texte {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.reservation__button {
+  box-shadow: 0px 7px 16px -7px #000000;
+  background: linear-gradient(to bottom, #FF79DA 5%, #9356DC 100%);
+  background-color: #FF79DA;
+  border-radius: 42px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 15px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+  border: none;
+}
+.reservation__button:hover {
+  background: #a16be0;
+  background: #ff93e1;
+}
+
+@media screen and (min-width: 800px) {
+  .logo {
+    width: 300px;
+  }
+  .fontbel {
+    margin: 25px 25px;
+  }
+  .reservation {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
 /**Identité visuelle**/
 /**Backgrounds colors **/
 /**Couleurs**/
@@ -154,6 +292,17 @@ footer {
   font-weight: 500;
 }
 
+@media screen and (min-width: 800px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .textfooter--title {
+    display: flex;
+    justify-content: center;
+  }
+}
 /**main**/
 main {
   width: 100%;
@@ -209,6 +358,44 @@ main {
   margin: 25px 10px;
 }
 
+.bulles:hover {
+  background-color: #F5EEF8;
+}
+.bulles:hover:hover > i {
+  color: #9356DC;
+}
+
+.bulles2:hover {
+  background-color: #F5EEF8;
+}
+.bulles2:hover:hover > i {
+  color: #9356DC;
+}
+
+.bulles3:hover {
+  background-color: #F5EEF8;
+}
+.bulles3:hover:hover > i {
+  color: #9356DC;
+}
+
+@media screen and (min-width: 800px) {
+  .fonctionnement {
+    align-items: center;
+  }
+  .bulles {
+    width: 700px;
+    height: 80px;
+  }
+  .bulles2 {
+    width: 700px;
+    height: 80px;
+  }
+  .bulles3 {
+    width: 700px;
+    height: 80px;
+  }
+}
 /**restaurants**/
 .restaurants {
   width: 100%;
@@ -283,12 +470,54 @@ main {
   transform: scale(1.2);
 }
 
+@media screen and (min-width: 800px) and (max-width: 1490px) {
+  .cardrestaurant {
+    width: 360px;
+  }
+  .cardrestaurant--placementcards {
+    flex-direction: row;
+  }
+  .listemenu1 {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1491px) {
+  .cardrestaurant {
+    width: 300px;
+    margin: 20px;
+  }
+  .cardrestaurant--placementcards {
+    flex-direction: row;
+  }
+  .listemenu1 {
+    display: flex;
+  }
+  .listemenu2 {
+    display: flex;
+  }
+}
+/**Identité visuelle**/
+/**Backgrounds colors **/
+/**Couleurs**/
 /**Identité visuelle**/
 /**Backgrounds colors **/
 /**Couleurs**/
 /**Menus**/
 .greybackground {
   background-color: #f2f2f2;
+}
+
+/**header**/
+.arrowlogo {
+  position: absolute;
+  margin-right: 300px;
+  right: 0px;
+  left: 20px;
+  top: 25px;
+  color: black;
+}
+.arrowlogo:hover {
+  color: #9356DC;
 }
 
 /**main menu**/
@@ -587,86 +816,5 @@ main {
 .loader i {
   animation: spin 1s infinite;
 }
-
-/**Paris, Belleville**/
-.backgroundParis {
-  background-color: #eaeaea;
-  opacity: 90%;
-}
-
-.fontbel {
-  margin: 3%;
-  font-size: x-large;
-}
-
-.marginlocation {
-  margin-left: 30%;
-}
-
-.divparis {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-}
-
-/**Réservation**/
-.reservation {
-  width: 100%;
-  padding-top: 5%;
-  padding-bottom: 10%;
-  background-color: #f2f2f2;
-}
-.reservation__titre {
-  margin: 0px 5px;
-}
-.reservation__texte {
-  margin-left: 5px;
-  margin-right: 5px;
-}
-.reservation__button {
-  box-shadow: 0px 7px 16px -7px #000000;
-  background: linear-gradient(to bottom, #FF79DA 5%, #9356DC 100%);
-  background-color: #FF79DA;
-  border-radius: 42px;
-  display: inline-block;
-  cursor: pointer;
-  color: #ffffff;
-  font-size: 17px;
-  padding: 15px;
-  text-decoration: none;
-  text-shadow: 0px 1px 0px #2f6627;
-  border: none;
-}
-.reservation__button:hover {
-  background: #a16be0;
-  background: #ff93e1;
-}
-
-/**Fonctionnement**/
-.bulles:hover {
-  background-color: #F5EEF8;
-}
-.bulles:hover:hover > i {
-  color: #9356DC;
-}
-
-.bulles2:hover {
-  background-color: #F5EEF8;
-}
-.bulles2:hover:hover > i {
-  color: #9356DC;
-}
-
-.bulles3:hover {
-  background-color: #F5EEF8;
-}
-.bulles3:hover:hover > i {
-  color: #9356DC;
-}
-
-/**Restaurant**/
-/**Footer**/
 
 /*# sourceMappingURL=style.css.map */

@@ -48,4 +48,43 @@ main {
     margin: 25px 10px;
 }
 
+.bulles:hover {
+    background-color: #F5EEF8;
+    &:hover>i {
+        color: $color-primary;
+    }
+}
 
+.bulles2:hover {
+    background-color: #F5EEF8;
+    &:hover>i {
+        color: $color-primary;
+    }
+}
+
+.bulles3:hover {
+    background-color: #F5EEF8;
+    &:hover>i {
+        color: $color-primary;
+    }
+}
+
+
+@media screen and (min-width:800px){
+    .fonctionnement{
+        align-items: center;
+
+    }
+    .bulles{
+        width: 700px;
+        height: 80px;
+    }
+    .bulles2{
+        width: 700px;
+        height: 80px;
+    }
+    .bulles3{
+        width: 700px;
+        height: 80px;
+    }
+}

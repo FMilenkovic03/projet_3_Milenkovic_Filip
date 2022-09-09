@@ -76,3 +76,33 @@
         transform: scale(1.2);
     }
 }
+
+
+@media screen and (min-width:800px) and (max-width:1490px) {
+    .cardrestaurant{
+        width: 360px;
+    } 
+    .cardrestaurant--placementcards{
+        flex-direction: row;
+    }
+    .listemenu1{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (min-width:1491px) {
+    .cardrestaurant{
+        width: 300px;
+        margin: 20px;
+    } 
+    .cardrestaurant--placementcards{
+        flex-direction: row;
+    }
+    .listemenu1{
+        display: flex;
+    }
+    .listemenu2{
+        display: flex;
+    }
+    
+}
