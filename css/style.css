@@ -396,6 +396,23 @@ main {
     height: 80px;
   }
 }
+@media screen and (min-width: 1300px) {
+  .fonctionnement {
+    align-items: center;
+  }
+  .bulles {
+    width: 1000px;
+    height: 100px;
+  }
+  .bulles2 {
+    width: 1000px;
+    height: 100px;
+  }
+  .bulles3 {
+    width: 1000px;
+    height: 100px;
+  }
+}
 /**restaurants**/
 .restaurants {
   width: 100%;
@@ -494,6 +511,11 @@ main {
   }
   .listemenu2 {
     display: flex;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  .cardrestaurant--placementcards {
+    flex-direction: row;
   }
 }
 /**Identité visuelle**/

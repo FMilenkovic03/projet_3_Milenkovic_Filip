@@ -88,3 +88,23 @@ main {
         height: 80px;
     }
 }
+
+@media screen and (min-width:1300px) {
+    .fonctionnement{
+        align-items: center;
+
+    }
+    .bulles{
+        width: 1000px;
+        height: 100px;
+    }
+    .bulles2{
+        width: 1000px;
+        height: 100px;
+    }
+    .bulles3{
+        width: 1000px;
+        height: 100px;
+    }
+    
+}

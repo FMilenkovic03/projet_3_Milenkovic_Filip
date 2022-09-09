@@ -106,3 +106,9 @@
     }
     
 }
+
+@media screen and (min-width:600px) and (max-width:799px) {
+    .cardrestaurant--placementcards{
+        flex-direction: row;
+    }
+}
