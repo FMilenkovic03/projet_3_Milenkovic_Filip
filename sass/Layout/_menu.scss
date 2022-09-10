@@ -164,7 +164,7 @@
 
 
 
-    @media screen and (min-width:700px) and (max-width:889px) {
+    @media screen and (min-width:700px) and (max-width:900px) {
         .bullemenu{
             width: 650px;
         }
@@ -181,7 +181,7 @@
         }
     }
 
-    @media screen and (min-width:890px) and (max-width:1199px) {
+    @media screen and (min-width:901px) and (max-width:1199px) {
         .partitionmenu{
             display: flex;
             width: 95%;
@@ -190,7 +190,7 @@
         .bullemenu{
             width: 350px;
             margin: 0px 5px;
-            height: 80px;
+            height: 90px;
         }
         .bullemenu__confirmation{
             height: 100%;

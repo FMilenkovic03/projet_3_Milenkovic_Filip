@@ -165,6 +165,9 @@ header {
     padding-top: 100px;
     padding-bottom: 100px;
   }
+  .arrowlogo {
+    margin-top: 10px;
+  }
 }
 /**Identité visuelle**/
 /**Backgrounds colors **/
@@ -290,6 +293,10 @@ footer {
   margin-top: 20px;
   margin-left: 25px;
   font-weight: 500;
+}
+
+.mail {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 800px) {
@@ -718,7 +725,7 @@ main {
   border-bottom: solid #99E2D0;
 }
 
-@media screen and (min-width: 700px) and (max-width: 889px) {
+@media screen and (min-width: 700px) and (max-width: 900px) {
   .bullemenu {
     width: 650px;
   }
@@ -734,7 +741,7 @@ main {
     margin-left: 15px;
   }
 }
-@media screen and (min-width: 890px) and (max-width: 1199px) {
+@media screen and (min-width: 901px) and (max-width: 1199px) {
   .partitionmenu {
     display: flex;
     width: 95%;
@@ -743,7 +750,7 @@ main {
   .bullemenu {
     width: 350px;
     margin: 0px 5px;
-    height: 80px;
+    height: 90px;
   }
   .bullemenu__confirmation {
     height: 100%;
