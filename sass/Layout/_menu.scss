@@ -181,7 +181,7 @@
         }
     }
 
-    @media screen and (min-width:890px) and (max-width:1158px) {
+    @media screen and (min-width:890px) and (max-width:1199px) {
         .partitionmenu{
             display: flex;
             width: 95%;
@@ -201,11 +201,18 @@
         }
     }
 
-    @media screen and (min-width:1159px) {
+    @media screen and (min-width:1200px) {
         .wholesectionmenu{
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
         }
+        .starter{
+            margin-right: 50px;
+        }
+        .plats{
+            margin-right: 50px;
+        }
+        
         .bullemenu{
             width: 350px;
         }

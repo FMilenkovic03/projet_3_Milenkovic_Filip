@@ -12,7 +12,8 @@
     font-family: "Font Awesome 5 Free";
     font-weight: $font-weight;
   }
-  @mixin gradient($opacity: 0.9) {
+
+@mixin gradient($opacity: 0.9) {
     background-image: linear-gradient(
       to top,
       rgba(147, 86, 220, $opacity),
@@ -31,7 +32,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     opacity: $opacity;
-    transition: all 200ms ease-in-out;
+    transition: all 400ms ease-in-out;
   }
   
   @mixin heart-animated {
@@ -47,6 +48,6 @@
     }
     &:hover::after {
       opacity: 1;
-      transform: translateY(-50%) scale(1.1);
+      transform: translateY(-50%) scale(1);
     }
   }
