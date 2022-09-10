@@ -772,6 +772,10 @@ main {
   }
   .bullemenu {
     width: 350px;
+    height: 80px;
+  }
+  .bullemenu__confirmation {
+    height: 100%;
   }
 }
 /**Animation**/
