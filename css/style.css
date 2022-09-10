@@ -302,6 +302,12 @@ footer {
     display: flex;
     justify-content: center;
   }
+  .textfooter {
+    margin-left: 15px;
+  }
+  footer .ml2 {
+    margin: 0px;
+  }
 }
 /**main**/
 main {
@@ -653,7 +659,7 @@ main {
   background-color: #99E2D0;
   z-index: 4;
   min-width: 70px;
-  height: 83px;
+  height: 64.484px;
   border-radius: 0 15px 15px 0;
   color: white;
   display: none;
@@ -712,6 +718,49 @@ main {
   border-bottom: solid #99E2D0;
 }
 
+@media screen and (min-width: 700px) and (max-width: 889px) {
+  .bullemenu {
+    width: 650px;
+  }
+  .partitionmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .ml3 {
+    margin: 0px;
+  }
+  .souligne {
+    margin-left: 15px;
+  }
+}
+@media screen and (min-width: 890px) and (max-width: 1158px) {
+  .partitionmenu {
+    display: flex;
+    width: 95%;
+    margin: 0px 15px;
+  }
+  .bullemenu {
+    width: 350px;
+    margin: 0px 5px;
+    height: 80px;
+  }
+  .bullemenu__confirmation {
+    height: 100%;
+  }
+  .souligne {
+    margin-left: 5px;
+  }
+}
+@media screen and (min-width: 1159px) {
+  .wholesectionmenu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bullemenu {
+    width: 350px;
+  }
+}
 /**Animation**/
 @keyframes itemAppear {
   0% {

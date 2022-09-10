@@ -1,5 +1,6 @@
-@use '../Utils/mixins';
-@use '../Utils/variables';
+@import '../Utils/mixins';
+@import '../Utils/variables';
+
 
 /**Menus**/
 
@@ -92,7 +93,7 @@
         background-color: $color-tertiary;
         z-index: 4;
         min-width: 70px;
-        height: 83px;
+        height: 64.484px;
         border-radius: 0 15px 15px 0;
         color: white;
         display: none;
@@ -161,3 +162,51 @@
         border-bottom: solid $color-tertiary;
     }
 
+
+
+    @media screen and (min-width:700px) and (max-width:889px) {
+        .bullemenu{
+            width: 650px;
+        }
+        .partitionmenu{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        main .ml3{
+            margin: 0px;
+        }
+        .souligne{
+            margin-left: 15px;
+        }
+    }
+
+    @media screen and (min-width:890px) and (max-width:1158px) {
+        .partitionmenu{
+            display: flex;
+            width: 95%;
+            margin: 0px 15px;
+        }
+        .bullemenu{
+            width: 350px;
+            margin: 0px 5px;
+            height: 80px;
+        }
+        .bullemenu__confirmation{
+            height: 100%;
+        }
+
+        .souligne{
+            margin-left: 5px;
+        }
+    }
+
+    @media screen and (min-width:1159px) {
+        .wholesectionmenu{
+            display: flex;
+            justify-content: space-between;
+        }
+        .bullemenu{
+            width: 350px;
+        }
+    }
