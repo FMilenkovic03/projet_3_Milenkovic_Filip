@@ -24,14 +24,14 @@
 @mixin coeur($opacity: 1, $font-weight: 400, $color: inherit) {
     @include font-awesome($font-weight);
     content: "\f004";
+    opacity: $opacity;
+    color: $color;
     font-size: 30px;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
-    color: $color;
     background-clip: text;
     -webkit-background-clip: text;
-    opacity: $opacity;
     transition: all 400ms ease-in-out;
   }
   
