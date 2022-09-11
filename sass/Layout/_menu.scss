@@ -57,6 +57,7 @@
 .bullemenu {
     display: flex;
     background-color: $white;
+    overflow: hidden;
     border-radius: 15px;
     width: 95%;
     margin-bottom: 15px;
@@ -89,23 +90,23 @@
         padding-right: 10px;
         margin-top: 10px;
     }
-    &__confirmation {
-        background-color: $color-tertiary;
-        z-index: 4;
-        min-width: 70px;
-        height: 64.484px;
-        border-radius: 0 15px 15px 0;
-        color: white;
-        display: none;
+
+    &__confirmation{
+        display: flex;
+        position: relative;
         justify-content: center;
         align-items: center;
-        position: relative;
+        color: white;
+        width: 64px;
+        height: auto;
+        $button-width: 64px;
+        border-radius: 0 15px 15px 0;
+        background-color: $color-tertiary;
+        margin-right: -1 * $button-width;
+        transition: margin-right 0.5s;
     }
-    
     &:hover &__confirmation {
-        display: flex;
-        -webkit-animation: slide-in-right 0.2s ease-out both;
-        animation: slide-in-right 0.2s ease-out both;
+        margin-right: 0px;
     }
     
     &__wrapIcon {

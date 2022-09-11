@@ -87,6 +87,10 @@ main {
         width: 700px;
         height: 80px;
     }
+    .fonctionnement{
+        display: flex;
+        flex-flow: row;
+    }
 }
 
 @media screen and (min-width:1300px) {

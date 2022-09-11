@@ -408,6 +408,10 @@ main {
     width: 700px;
     height: 80px;
   }
+  .fonctionnement {
+    display: flex;
+    flex-flow: row;
+  }
 }
 @media screen and (min-width: 1300px) {
   .fonctionnement {
@@ -630,6 +634,7 @@ main {
 .bullemenu {
   display: flex;
   background-color: white;
+  overflow: hidden;
   border-radius: 15px;
   width: 95%;
   margin-bottom: 15px;
@@ -663,21 +668,20 @@ main {
   margin-top: 10px;
 }
 .bullemenu__confirmation {
-  background-color: #99E2D0;
-  z-index: 4;
-  min-width: 70px;
-  height: 64.484px;
-  border-radius: 0 15px 15px 0;
-  color: white;
-  display: none;
+  display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
-  position: relative;
+  color: white;
+  width: 64px;
+  height: auto;
+  border-radius: 0 15px 15px 0;
+  background-color: #99E2D0;
+  margin-right: -64px;
+  transition: margin-right 0.5s;
 }
 .bullemenu:hover .bullemenu__confirmation {
-  display: flex;
-  -webkit-animation: slide-in-right 0.2s ease-out both;
-  animation: slide-in-right 0.2s ease-out both;
+  margin-right: 0px;
 }
 .bullemenu__wrapIcon {
   background-color: white;
@@ -836,30 +840,6 @@ main {
 }
 
 /**slide in right confirmation menu **/
-@-webkit-keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(10px);
-    transform: translateX(10px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
 /**rotation confirmation menu**/
 @-webkit-keyframes rotate-center {
   0% {

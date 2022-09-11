@@ -18,31 +18,6 @@
 
 /**slide in right confirmation menu **/
 
-@-webkit-keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(10px);
-            transform: translateX(10px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-    opacity: 1;
-  }
-}
 
 /**rotation confirmation menu**/
 @-webkit-keyframes rotate-center {
