@@ -191,7 +191,7 @@ header {
 
 /**polices et tailles de textes **/
 p, .police {
-  font-family: "Roboto Regular", serif;
+  font-family: "Roboto Regular";
 }
 
 /**flexbox**/
@@ -557,7 +557,7 @@ main {
 
 /**polices et tailles de textes **/
 p, .police {
-  font-family: "Roboto Regular", serif;
+  font-family: "Roboto Regular";
 }
 
 /**Menus**/
