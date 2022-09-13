@@ -182,7 +182,7 @@ header {
 }
 @font-face {
   font-family: "Roboto Regular";
-  src: url(../../fonts/roboto/Roboto-Regular.ttf) format("TrueType");
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format("TrueType");
 }
 /**Logo et titres**/
 .policetitre {
@@ -548,7 +548,7 @@ main {
 }
 @font-face {
   font-family: "Roboto Regular";
-  src: url(../../fonts/roboto/Roboto-Regular.ttf) format("TrueType");
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format("TrueType");
 }
 /**Logo et titres**/
 .policetitre {
