@@ -178,11 +178,11 @@ header {
 /**déclaration font**/
 @font-face {
   font-family: "Shrikhand";
-  src: url(/fonts/shrikhand/Shrikhand-Regular.ttf) format("TrueType");
+  src: url(../fonts/shrikhand/Shrikhand-Regular.ttf) format("TrueType");
 }
 @font-face {
   font-family: "Roboto Regular";
-  src: url(/fonts/roboto/Roboto-Regular.ttf) format("TrueType");
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format("TrueType");
 }
 /**Logo et titres**/
 .policetitre {
